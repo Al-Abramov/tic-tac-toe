@@ -34,7 +34,7 @@ gameCanvas.addEventListener('click', e => {
     const colIndex = Array.from(e.target.parentNode.children).indexOf(e.target);
 
     game.nextTurn(rowIndex, colIndex);
-
+//debugger
     const winner = game.getWinner();
     const isDraw = game.isDraw();
 
